@@ -7,8 +7,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/fluxcd/go-git/v5/plumbing/format/config"
-	gioutil "github.com/fluxcd/go-git/v5/utils/ioutil"
+	"github.com/go-git/go-git/v5/plumbing/format/config"
+	gioutil "github.com/go-git/go-git/v5/utils/ioutil"
 	"github.com/go-git/go-billy/v5"
 )
 

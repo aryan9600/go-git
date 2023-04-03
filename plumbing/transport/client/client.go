@@ -10,11 +10,11 @@ import (
 	gohttp "net/http"
 	"time"
 
-	"github.com/fluxcd/go-git/v5/plumbing/transport"
-	"github.com/fluxcd/go-git/v5/plumbing/transport/file"
-	"github.com/fluxcd/go-git/v5/plumbing/transport/git"
-	"github.com/fluxcd/go-git/v5/plumbing/transport/http"
-	"github.com/fluxcd/go-git/v5/plumbing/transport/ssh"
+	"github.com/go-git/go-git/v5/plumbing/transport"
+	"github.com/go-git/go-git/v5/plumbing/transport/file"
+	"github.com/go-git/go-git/v5/plumbing/transport/git"
+	"github.com/go-git/go-git/v5/plumbing/transport/http"
+	"github.com/go-git/go-git/v5/plumbing/transport/ssh"
 )
 
 // Protocols are the protocols supported by default.

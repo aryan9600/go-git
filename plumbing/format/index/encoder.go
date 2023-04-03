@@ -8,8 +8,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/fluxcd/go-git/v5/plumbing/hash"
-	"github.com/fluxcd/go-git/v5/utils/binary"
+	"github.com/go-git/go-git/v5/plumbing/hash"
+	"github.com/go-git/go-git/v5/utils/binary"
 )
 
 var (

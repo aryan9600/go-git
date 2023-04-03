@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/fluxcd/go-git/v5/plumbing/hash"
+	"github.com/go-git/go-git/v5/plumbing/hash"
 )
 
 // Hash SHA1 hashed content
